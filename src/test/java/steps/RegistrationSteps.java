@@ -29,6 +29,14 @@ public void user_enters_the_following_data(DataTable dataTable) {
 	System.out.println(lastname);
 	
 //	WAP to print the complete list at second number
+	
+	
+	List<String> secondindexlist = data.get(1);
+	
+	System.out.println(secondindexlist);
+	
+	
+	
 }
 
 @Then("user gets registration confirmation")
