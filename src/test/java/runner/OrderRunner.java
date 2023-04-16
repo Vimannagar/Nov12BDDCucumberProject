@@ -5,11 +5,12 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = {"src\\test\\resources\\applicationtest\\Orders.feature"},
+		features = {"src\\test\\resources\\applicationtest"},
 		
-		glue = {"steps"},
+		glue = {"steps", "hooks"},
 		
 		plugin = {"pretty"}
+	
 		
 		)
 
