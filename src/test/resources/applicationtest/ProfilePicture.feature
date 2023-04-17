@@ -7,7 +7,7 @@ When user click on the avatar
 And user selects the image to upload
 Then profile picture gets uploaded
 
-@regression
+@regression @functional
 Scenario: update profile picture
 Given user is on home page
 When user click edit for avatar

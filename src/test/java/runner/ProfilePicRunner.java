@@ -7,11 +7,11 @@ import io.cucumber.testng.CucumberOptions;
 			
 			features = {"src\\test\\resources\\applicationtest\\ProfilePicture.feature"},
 			
-			glue = {"steps"},
+			glue = {"steps", "taghooks"},
 			
 			plugin = {"pretty"},
 			
-			tags = "@functional or @regression"
+			tags = "@sanity"
 			
 			)
 	

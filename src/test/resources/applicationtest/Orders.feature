@@ -10,5 +10,5 @@ When user clicks on the past orders button
 Then user should be able to see past order information
 
 Scenario: currently placed order information
-When user clicks on the current orders button
+When user clicks on the current
 Then user should be able to see placed order information
