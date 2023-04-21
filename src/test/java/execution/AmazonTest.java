@@ -6,10 +6,14 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		
 		features = {"src\\test\\resources\\execution"},
-		
+	
+//		features = {"@target/failedrun.txt"},
+				
 		glue = {"execution"},
 		
-		plugin = {"pretty"}
+//		plugin = {"pretty", "rerun:target/failedrun.txt"}
+		
+		plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		
 		
 		)
